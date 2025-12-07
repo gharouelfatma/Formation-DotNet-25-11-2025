@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Formatin_ECommercie_11_2025.Core</RootNamespace>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>../Formation-ECommerce-11-025.Web.sln</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Common\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Utility\" />
+    <None Remove="Entities\Cart\" />
+    <None Remove="Entities\Category\" />
+    <None Remove="Entities\Coupon\" />
+    <None Remove="Entities\Orders\" />
+    <None Remove="Entities\Product\" />
+    <None Remove="Entities\Identity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Common\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Utility\" />
+    <Folder Include="Entities\Cart\" />
+    <Folder Include="Entities\Category\" />
+    <Folder Include="Entities\Coupon\" />
+    <Folder Include="Entities\Orders\" />
+    <Folder Include="Entities\Product\" />
+    <Folder Include="Entities\Identity\" />
+  </ItemGroup>
+</Project>
