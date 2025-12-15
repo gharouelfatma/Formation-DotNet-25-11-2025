@@ -5,7 +5,7 @@ VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formation-ECommerce-11-025.Web", "Formation-ECommerce-11-025.Web\Formation-ECommerce-11-025.Web.csproj", "{510B8251-3C3F-47D7-B465-E29501A07810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatin-ECommercie-11-2025.Core", "Formatin-ECommercie-11-2025.Core\Formatin-ECommercie-11-2025.Core.csproj", "{AB582DAC-AA28-4D00-9A92-FE2701159CB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formation-ECommerce-11-2025.Core", "Formatin-ECommercie-11-2025.Core\Formation-ECommerce-11-2025.Core.csproj", "{AB582DAC-AA28-4D00-9A92-FE2701159CB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formation-ECommerce-11-025.Infrastructure", "Formation-ECommerce-11-025.Infrastructure\Formation-ECommerce-11-025.Infrastructure.csproj", "{E9EE66E0-DF9F-4FC1-ABB6-2F35C3105AB2}"
 EndProject
