@@ -38,6 +38,10 @@
     <None Remove="Entities\Orders\" />
     <None Remove="Entities\Product\" />
     <None Remove="Entities\Identity\" />
+    <None Remove="Interfaces\External\" />
+    <None Remove="Interfaces\Repositories\" />
+    <None Remove="Interfaces\Repositories\Base\" />
+    <None Remove="NotMappedEntities\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -50,5 +54,10 @@
     <Folder Include="Entities\Orders\" />
     <Folder Include="Entities\Product\" />
     <Folder Include="Entities\Identity\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\External\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Interfaces\Repositories\Base\" />
+    <Folder Include="NotMappedEntities\" />
   </ItemGroup>
 </Project>

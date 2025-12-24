@@ -4,6 +4,7 @@ using Formation_ECommerce_11_2025.Core.Entities.Products;
 
 
 
+
 namespace Formation_ECommerce_11_2025.Core.Entities.Cart;
 
 public class CartDetails

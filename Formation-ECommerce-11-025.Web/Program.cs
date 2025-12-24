@@ -1,5 +1,16 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Formation_ECommerce_11_025.Infrastructure.Persistance;
+using Formation_ECommerce_11_2025.Core.Entities.Identity;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDBContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDBContext>()
+    .AddSignInManager()
+    .AddDefaultTokenProviders();
+    
 // Add services to the container.
 builder.Services.AddRazorPages();
 
